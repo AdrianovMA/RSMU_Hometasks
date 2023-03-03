@@ -10,9 +10,11 @@
 #    7. Выведите в консоль календарь на 2023 год
 
 import calendar
+print('Расположение файла: /Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/calendar.py', '\n')
+print('Это список аттрибутов: ', dir(calendar), '\n')
 if calendar.isleap(2027):
-    print ('Да, 2027 год - високосный')
+    print ('Да, 2027 год - високосный', '\n')
 else:
-    print ('Нет, 2027 год - не високосный')
-print(calendar.weekday(1995, 6, 25)+1,'день недели, т.е воскресенье')
+    print ('Нет, 2027 год - не високосный', '\n')
+print(calendar.weekday(1995, 6, 25)+1,'день недели, т.е воскресенье', '\n')
 calendar.prcal(2023)
