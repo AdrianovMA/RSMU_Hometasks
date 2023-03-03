@@ -3,7 +3,7 @@
 # Необходимо вывести на экран его расширение с помощью стандартного модуля re.
 import re
 
-filename = input()
+filename = input('Введите имя файла: ')
 pattern = '\..*'
 a = re.search(pattern, filename)
 print(a.group())
